@@ -419,7 +419,7 @@ zeroMatrix(matrix)
 
 
 
-# String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, S1 and S2, write code to check if S2 is a rotation of S1 using only one call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
+# 1.9 String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, S1 and S2, write code to check if S2 is a rotation of S1 using only one call to isSubstring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
 Approach: when you add a string to itself, all the rotations of the original string will be a substring to that mdofied version of the string. check it :) <br>
 Running Time : O(n) <br>
